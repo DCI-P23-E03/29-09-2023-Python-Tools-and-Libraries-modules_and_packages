@@ -10,7 +10,7 @@ In this exercise, we will focus on using imports on modules and on using package
 
 ### 
 
-### :heavy_plus_sign: Task 1 - modules and imports 
+### :heavy_plus_sign: Task  - modules and imports 
 
 Your task is to create two Python modules called `math_mod.py` and `string_mod.py` and another Python file `script.py`.  
 First module should contain functions to:  
@@ -42,35 +42,4 @@ There is a digit in your string!
 Result of checking digits in the string 'HelloDCI007' is True
 ``` 
  
-### :heavy_plus_sign: Task 2 - using pip in virtual environment 
-
-Your task is to practice working with virtual environments and pip:  
-  * create [virtual environment](https://docs.python.org/3/tutorial/venv.html) called `env1`,  
-  * activate this environment and update pip (read about `--upgrade` flag in documentation of pip or in manual),  
-  * install three packages from PyPI (for example `numpy`, `matplotlib`, etc.),
-  * create `requirements.txt` file using `freeze` command,
-  * create `list.txt` file using `list` command,
-  * create `my_script.py` file and use documentation of at least two installed packages (look at the examples) to write working Python program,
-  * run the program,  
-  * deactivate `env1` and check if program still works,
-  * create second virtual environment called `env2` and activate it,  
-  * using `install` command of pip (with proper flag) install packages from requirements file,
-  * chech if `my_script.py` works in newly created environment.
-> Do all sub-tasks given above in one folder!
-
-
-
-- Your partial console commands could look like this:
-
-
-```bash
-python3 -m venv ...
-source ...
-pip install -U ...
-pip install ...
-pip freeze > ...
-python ...
-
-etc.
-``` 
 
